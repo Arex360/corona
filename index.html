@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+    <title>Track Covid19</title>
+</head>
+<body>
+
+    <section class="main">
+      
+        <h1>Track Covid-19</h1>
+        <div class="search">
+            <input type="text" class="cs" placeholder="Enter the country name">
+            <button class="btn">Search</button>
+        </div>
+    </section>
+    <section class="result">
+        <img class="resimg" src="result.png" alt="">
+        <div class="output">
+            <ul>
+                <li><label id="tc" for="">Total Cases: </label></li>
+                <li><label id="td" for="">Total Deaths: </label></li>
+                <li><label id="ta"for="">Total Active Cases:</label></li>
+                <li><label id="tr" for="">Total Death rate: </label></li>
+            </ul>
+            <hr>
+            <ul>
+                <li><label id="Tc" for="">Today Cases:  </label></li>
+                <li><label id="Td" for="">Today Deaths: </label></li>
+                <li><label id="Ta"for="">Critical Cases:</label></li>
+                <li><label id="Tr" for="">Total recovered: </label></li>
+            </ul>
+        </div>
+    </section>
+    <script>
+        let cover = document.querySelector('.main').style
+        let result = document.querySelector('.result').style
+        let btn = document.querySelector('.btn')
+        let countryn = document.querySelector('.cs')
+        let tc = document.querySelector('#tc')
+        let td = document.querySelector('#td')
+        let ta = document.querySelector('#ta')
+        let tr = document.querySelector('#tr')
+        let Tc = document.querySelector('#Tc')
+        let Td = document.querySelector('#Td')
+        let Ta = document.querySelector('#Ta')
+        let Tr = document.querySelector('#Tr')
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>

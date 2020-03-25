@@ -1,0 +1,131 @@
+@media screen and (max-width: 980px){
+    .main{
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        transition: 0.7s;
+      }
+      .main h1{
+        top: 23%;
+        left: 10%;
+        font-weight: bold;
+        font-size: 3rem;
+      }
+      .search{
+        position: relative;
+        width: 100%;
+        top: 97%;
+      }
+      .cs{
+        position: relative;
+        left: 36%;
+        width: 20%;
+        padding: 10px;
+        margin: 0;
+      }
+      .btn{
+        left: 35%;
+        padding: 10px;
+
+      }
+      .btn:hover{
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+      ul{
+          position: relative;
+         
+        }
+        li{
+          color: white;
+        
+          width: 100%;
+          transition: 0.7s;
+          cursor: pointer;
+        }
+        li:hover{
+          padding: 8px;
+        }
+        li label{
+            margin-left: 10px;
+        }
+        .result{
+          margin-top: 30px;
+          width: 100%;
+        }
+        .resimg{
+          width: 25%;
+        }
+      .output{
+        position: relative;
+        margin-top: 3%;
+        width: 28%;
+        left: 37%;
+      }
+      
+}
+@media screen and (max-width: 370px){
+    .main{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        transition: 0.7s;
+      }
+      .main h1{
+        top: 23%;
+        left: 10%;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .search{
+        position: relative;
+        width: 100%;
+        top: 97%;
+      }
+      .cs{
+        position: relative;
+        left: 25%;
+        width: 40%;
+        padding: 7px;
+        margin: 0;
+      }
+      .btn{
+        left: 23%;
+        padding: 7px;
+
+      }
+      .btn:hover{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      ul{
+          position: relative;
+         
+        }
+        li{
+          color: white;
+          width: 100%;
+          transition: 0.7s;
+          cursor: pointer;
+        }
+        li:hover{
+          padding: 8px;
+        }
+        li label{
+            margin-left: 10px;
+        }
+        .result{
+          margin-top: 30px;
+          width: 100%;
+        }
+        .resimg{
+          width: 25%;
+        }
+      .output{
+        position: relative;
+        margin-top: 3%;
+        width: 58%;
+        left: 25%;
+      }
+      
+}
